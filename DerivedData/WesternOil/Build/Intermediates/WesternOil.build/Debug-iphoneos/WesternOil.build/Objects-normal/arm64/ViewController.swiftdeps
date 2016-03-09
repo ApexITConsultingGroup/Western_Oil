@@ -7,11 +7,11 @@ provides-member:
 - ["C10WesternOil14ViewController", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "UIViewController"
+- "UIWebView"
+- !private "NSURL"
 - "ViewController"
 - !private "NSURLRequest"
-- !private "NSURL"
-- "UIWebView"
-- "UIViewController"
 depends-member:
 - !private ["C10WesternOil14ViewController", "NSURL"]
 - !private ["C10WesternOil14ViewController", "NSURLRequest"]

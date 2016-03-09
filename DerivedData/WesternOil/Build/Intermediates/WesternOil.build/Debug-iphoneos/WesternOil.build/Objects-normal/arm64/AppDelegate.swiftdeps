@@ -7,21 +7,21 @@ provides-member:
 - ["C10WesternOil11AppDelegate", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "NSData"
 - "UIResponder"
-- "NSError"
+- !private "Pushbots"
+- "UIApplicationDelegate"
+- !private "=="
+- !private "print"
+- "NSObject"
+- "UIWindow"
 - "Bool"
 - !private "AnyObject"
-- "UIApplicationDelegate"
-- !private "print"
-- "UIWindow"
-- !private "UIAlertView"
-- !private "Pushbots"
-- !private "=="
-- "UIApplication"
 - !private "UIApplicationLaunchOptionsRemoteNotificationKey"
+- "UIApplication"
+- !private "UIAlertView"
+- "NSError"
 - "AppDelegate"
-- "NSData"
-- "NSObject"
 depends-member:
 - !private ["C10WesternOil11AppDelegate", "AnyObject"]
 - ["C10WesternOil11AppDelegate", "Bool"]
