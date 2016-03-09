@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "643f2922455922fdfa7c9c59cd7e0ac7"
+build_time: [510853631, 471802000]
+inputs:
+  "/Users/brandonwilkerson/Desktop/WesternOil/WesternOil/AppDelegate.swift": [510089050, 0]
+  "/Users/brandonwilkerson/Desktop/WesternOil/WesternOil/ViewController.swift": [510693394, 0]
