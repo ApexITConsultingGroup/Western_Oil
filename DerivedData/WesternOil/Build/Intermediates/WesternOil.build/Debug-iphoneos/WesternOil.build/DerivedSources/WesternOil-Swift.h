@@ -87,29 +87,29 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreLocation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
 @class UIWindow;
+@class CLLocationManager;
+@class CLBeaconRegion;
 @class UIApplication;
 @class NSObject;
-@class NSData;
-@class NSError;
+@class CLRegion;
 
 SWIFT_CLASS("_TtC10WesternOil11AppDelegate")
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <CLLocationManagerDelegate, UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * __nullable window;
+@property (nonatomic, readonly, strong) CLLocationManager * __nonnull locationManager;
+@property (nonatomic) BOOL enteredRegion;
+@property (nonatomic, readonly, strong) CLBeaconRegion * __nonnull nest71Region;
 - (BOOL)application:(UIApplication * __nonnull)application didFinishLaunchingWithOptions:(NSDictionary * __nullable)launchOptions;
-- (void)application:(UIApplication * __nonnull)application didReceiveRemoteNotification:(NSDictionary * __nonnull)userInfo;
-- (void)applicationWillResignActive:(UIApplication * __nonnull)application;
-- (void)applicationDidEnterBackground:(UIApplication * __nonnull)application;
-- (void)applicationWillEnterForeground:(UIApplication * __nonnull)application;
-- (void)applicationDidBecomeActive:(UIApplication * __nonnull)application;
-- (void)applicationWillTerminate:(UIApplication * __nonnull)application;
-- (void)application:(UIApplication * __nonnull)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData * __nonnull)deviceToken;
-- (void)application:(UIApplication * __nonnull)application didFailToRegisterForRemoteNotificationsWithError:(NSError * __nonnull)error;
-- (void)receivedPush:(NSDictionary * __nullable)userInfo;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion * __nonnull)region;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didEnterRegion:(CLRegion * __nonnull)region;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didExitREgion:(CLRegion * __nonnull)region;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

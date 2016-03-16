@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478464389.919584"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "receivedPush(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478464389.919584"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
             landmarkName = "receivedPush(_:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478203291.640123"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "application(_:didReceiveRemoteNotification:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,13 +58,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478203301.799211"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "application(_:didReceiveRemoteNotification:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +74,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478203304.352832"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
             landmarkName = "application(_:didReceiveRemoteNotification:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,13 +90,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WesternOil/AppDelegate.swift"
-            timestampString = "478464389.919584"
+            timestampString = "479851288.993866"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
             landmarkName = "application(_:didFailToRegisterForRemoteNotificationsWithError:)"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

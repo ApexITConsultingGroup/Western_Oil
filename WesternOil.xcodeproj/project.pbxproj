@@ -15,6 +15,7 @@
 		E73EB39C1C80BB1C00AEAB42 /* WesternOilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EB39B1C80BB1C00AEAB42 /* WesternOilTests.swift */; };
 		E73EB3A71C80BB1C00AEAB42 /* WesternOilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73EB3A61C80BB1C00AEAB42 /* WesternOilUITests.swift */; };
 		E75B72951C849E5300F35006 /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75B72941C849E5300F35006 /* Pushbots.framework */; };
+		E79124D41C99F25100913845 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79124D31C99F25100913845 /* Notifications.swift */; };
 		E7A1C4A21C80D33700608998 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A1C4A11C80D33700608998 /* CoreLocation.framework */; };
 		E7A1C4A41C80D33F00608998 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A1C4A31C80D33F00608998 /* SystemConfiguration.framework */; };
 		E7A1C4A61C80D34A00608998 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A1C4A51C80D34A00608998 /* MobileCoreServices.framework */; };
@@ -55,6 +56,7 @@
 		E73EB3A81C80BB1C00AEAB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73EB3C01C80C48C00AEAB42 /* WesternOil-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WesternOil-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		E75B72941C849E5300F35006 /* Pushbots.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pushbots.framework; sourceTree = "<group>"; };
+		E79124D31C99F25100913845 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		E7A1C4A11C80D33700608998 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E7A1C4A31C80D33F00608998 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E7A1C4A51C80D34A00608998 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -122,6 +124,7 @@
 				E75B72941C849E5300F35006 /* Pushbots.framework */,
 				E73EB3861C80BB1C00AEAB42 /* AppDelegate.swift */,
 				E73EB3881C80BB1C00AEAB42 /* ViewController.swift */,
+				E79124D31C99F25100913845 /* Notifications.swift */,
 				E73EB38A1C80BB1C00AEAB42 /* Main.storyboard */,
 				E73EB38D1C80BB1C00AEAB42 /* Assets.xcassets */,
 				E73EB38F1C80BB1C00AEAB42 /* LaunchScreen.storyboard */,
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79124D41C99F25100913845 /* Notifications.swift in Sources */,
 				E73EB3891C80BB1C00AEAB42 /* ViewController.swift in Sources */,
 				E73EB3871C80BB1C00AEAB42 /* AppDelegate.swift in Sources */,
 			);

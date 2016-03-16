@@ -7,18 +7,33 @@
 //
 
 import UIKit
+import CoreLocation
 
 
 
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate {
 
     var window: UIWindow?
+    let locationManager = CLLocationManager()
+    var enteredRegion = false
+    
+    
+    let nest71Region = CLBeaconRegion(proximityUUID: NSUUID(UUIDString: "B9407F30-F5F8-466E-AFF9-25556B57FE6D")!, identifier: "Nest71")
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        locationManager.requestAlwaysAuthorization()
+        locationManager.delegate = self
+        
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Alert, categories: nil))
+
+        
+        
+        
         
         Pushbots.sharedInstanceWithAppId("56be2b60177959f3628b4567");
         //Handle notification when the user click it, while app is closed.
@@ -26,6 +41,90 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Pushbots.sharedInstance().receivedPush(launchOptions);
         return true
     }
+    
+    
+    
+    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+        
+        switch status{
+            
+        case .AuthorizedAlways:
+            
+            locationManager.startMonitoringForRegion(nest71Region)
+            locationManager.startRangingBeaconsInRegion(nest71Region)
+            locationManager.requestStateForRegion(nest71Region)
+            
+        case .Denied:
+            
+            let alert = UIAlertController(title: "Warning", message: "You've disabled location update which is required for this app to work. Go to your phone settings and change the permissions.", preferredStyle: UIAlertControllerStyle.Alert)
+            let alertAction = UIAlertAction(title: "OK!", style: UIAlertActionStyle.Default) { (UIAlertAction) -> Void in }
+            alert.addAction(alertAction)
+            
+            self.window?.rootViewController?.presentViewController(alert, animated: true, completion: nil)
+            
+        default:
+            print("default case")
+            
+        }
+        
+        
+    }
+    
+
+    
+    func locationManager(manager: CLLocationManager, didDetermineState state: CLRegionState, forRegion region: CLRegion) {
+        
+        
+        switch state {
+            
+        case .Unknown:
+            print("Unknown")
+            
+        case .Inside:
+            //print("inside")
+            
+            var text: String = "Tap here to check out discounts for today!"
+            
+            if enteredRegion {
+                text = "Walcome to PetroMart"
+            }
+            
+            Notifications.display(text)
+            
+            
+        case .Outside:
+            //print("outside")
+            
+            var text : String = "Not buying anything?"
+            
+            if enteredRegion {
+                text = "Wait!, check them out first"
+                
+            }
+            
+            
+            Notifications.display(text)
+            
+            
+            
+            
+        }
+        
+    }
+    
+    func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
+        enteredRegion = true
+    }
+    
+    func locationManager(manager: CLLocationManager, didExitREgion region: CLRegion) {
+        enteredRegion = false
+    }
+    
+    
+    
+    
+}
+    
     
     
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
@@ -103,7 +202,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIAlertView(title:"Notification!", message:alert, delegate:nil, cancelButtonTitle:"OK").show();
         
     }
-}
+
 
 
 

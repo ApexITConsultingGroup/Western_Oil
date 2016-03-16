@@ -22,13 +22,13 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ZJxNzXr6Lu15TN0fbFDWwChftRA=
+		IMyKhp0h9j+QjXfp4yjzksUO0XA=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1kQR1xXgg+/21j25NBxUw1Ihtfw=
+			vhWjvCeUteLkw9CthBiHnQv1kwM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -46,7 +46,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zNtynarBTYU7JHOup+Z8GJctNuc=
+			xRaLSnu9UtlGgeohN4YddDm1fHk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nkfUD4RNJF/YmWS+eu/wVOUwVCw=
+			b1D30g42bPnOlUErBNyiNbCMtXk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +73,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7PE+0+JV6LcHOGOX1EqJgHB99nY=
+			rINzW7GDx9rMcUeV6zVGvfIxeSg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -93,6 +93,10 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		tgdzPXSVPqoE/7i7vrZd/ISkdo8=
+		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		XcZdQBR1GlgXhXCe8AGXctQL05M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
@@ -147,13 +151,13 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ZJxNzXr6Lu15TN0fbFDWwChftRA=
+		IMyKhp0h9j+QjXfp4yjzksUO0XA=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1kQR1xXgg+/21j25NBxUw1Ihtfw=
+			vhWjvCeUteLkw9CthBiHnQv1kwM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -171,7 +175,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zNtynarBTYU7JHOup+Z8GJctNuc=
+			xRaLSnu9UtlGgeohN4YddDm1fHk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -180,7 +184,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nkfUD4RNJF/YmWS+eu/wVOUwVCw=
+			b1D30g42bPnOlUErBNyiNbCMtXk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -198,7 +202,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7PE+0+JV6LcHOGOX1EqJgHB99nY=
+			rINzW7GDx9rMcUeV6zVGvfIxeSg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -218,6 +222,10 @@
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
 		tgdzPXSVPqoE/7i7vrZd/ISkdo8=
+		</data>
+		<key>Frameworks/libswiftCoreLocation.dylib</key>
+		<data>
+		XcZdQBR1GlgXhXCe8AGXctQL05M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>

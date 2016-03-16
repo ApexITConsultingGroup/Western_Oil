@@ -1,50 +1,917 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "AppDelegate"
+- "application"
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "application"
+- "application"
+- "receivedPush"
 provides-nominal:
 - "C10WesternOil11AppDelegate"
 provides-member:
 - ["C10WesternOil11AppDelegate", ""]
 provides-dynamic-lookup:
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "locationManager"
+- "window"
+- "nest71Region"
+- "application"
+- "enteredRegion"
 depends-top-level:
+- !private "UIAlertAction"
+- !private "UIUserNotificationSettings"
+- "receivedPush"
+- "CLRegion"
+- "CLLocationManager"
+- "AppDelegate"
 - "NSData"
-- "UIResponder"
-- !private "Pushbots"
-- "UIApplicationDelegate"
+- "UIWindow"
+- "AnyObject"
+- !private "UIUserNotificationType"
 - !private "=="
 - !private "print"
+- !private "Notifications"
+- "StringLiteralType"
+- !private "String"
 - "NSObject"
-- "UIWindow"
-- "Bool"
-- !private "AnyObject"
-- !private "UIApplicationLaunchOptionsRemoteNotificationKey"
 - "UIApplication"
 - !private "UIAlertView"
+- "applicationWillResignActive"
+- "CLRegionState"
+- !private "UIAlertActionStyle"
+- !private "NSDictionary"
+- "CLBeaconRegion"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "applicationWillEnterForeground"
+- !private "Pushbots"
+- "NSUUID"
+- !private "UIAlertController"
+- !private "UIAlertControllerStyle"
+- "UIApplicationDelegate"
+- "application"
+- "UIResponder"
+- "CLLocationManagerDelegate"
 - "NSError"
-- "AppDelegate"
+- !private "UIApplicationLaunchOptionsRemoteNotificationKey"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Void"
+- "applicationDidEnterBackground"
+- "CLAuthorizationStatus"
 depends-member:
-- !private ["C10WesternOil11AppDelegate", "AnyObject"]
+- ["PSs9AnyObject", "CLBeaconRegion"]
+- ["PSs9AnyObject", "CLLocationManager"]
+- ["PSs9AnyObject", "NSUUID"]
+- !private ["PSs9AnyObject", "Notifications"]
+- !private ["PSs9AnyObject", "Pushbots"]
+- !private ["PSs9AnyObject", "UIAlertAction"]
+- !private ["PSs9AnyObject", "UIAlertActionStyle"]
+- !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "UIAlertControllerStyle"]
+- !private ["PSs9AnyObject", "UIUserNotificationSettings"]
+- !private ["PSs9AnyObject", "UIUserNotificationType"]
+- !private ["PSs9AnyObject", "addAction"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "applicationIconBadgeNumber"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "display"]
+- ["PSs9AnyObject", "enteredRegion"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "locationManager"]
+- ["PSs9AnyObject", "locationManagerDidPauseLocationUpdates"]
+- ["PSs9AnyObject", "locationManagerDidResumeLocationUpdates"]
+- ["PSs9AnyObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSs9AnyObject", "nest71Region"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "receivedPush"]
+- !private ["PSs9AnyObject", "registerOnPushbots"]
+- !private ["PSs9AnyObject", "registerUserNotificationSettings"]
+- !private ["PSs9AnyObject", "requestAlwaysAuthorization"]
+- !private ["PSs9AnyObject", "requestStateForRegion"]
+- !private ["PSs9AnyObject", "rootViewController"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "sharedInstanceWithAppId"]
+- !private ["PSs9AnyObject", "show"]
+- !private ["PSs9AnyObject", "startMonitoringForRegion"]
+- !private ["PSs9AnyObject", "startRangingBeaconsInRegion"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["C10WesternOil11AppDelegate", "AnyObject"]
 - ["C10WesternOil11AppDelegate", "Bool"]
-- ["C10WesternOil11AppDelegate", "NSData"]
-- ["C10WesternOil11AppDelegate", "NSError"]
+- ["C10WesternOil11AppDelegate", "CLAuthorizationStatus"]
+- ["C10WesternOil11AppDelegate", "CLBeaconRegion"]
+- ["C10WesternOil11AppDelegate", "CLLocationManager"]
+- ["C10WesternOil11AppDelegate", "CLRegion"]
+- ["C10WesternOil11AppDelegate", "CLRegionState"]
 - ["C10WesternOil11AppDelegate", "NSObject"]
+- ["C10WesternOil11AppDelegate", "NSUUID"]
+- !private ["C10WesternOil11AppDelegate", "Notifications"]
 - !private ["C10WesternOil11AppDelegate", "Pushbots"]
-- !private ["C10WesternOil11AppDelegate", "UIAlertView"]
+- !private ["C10WesternOil11AppDelegate", "String"]
+- !private ["C10WesternOil11AppDelegate", "UIAlertAction"]
+- !private ["C10WesternOil11AppDelegate", "UIAlertActionStyle"]
+- !private ["C10WesternOil11AppDelegate", "UIAlertController"]
+- !private ["C10WesternOil11AppDelegate", "UIAlertControllerStyle"]
 - ["C10WesternOil11AppDelegate", "UIApplication"]
-- !private ["C10WesternOil11AppDelegate", "UIApplicationLaunchOptionsRemoteNotificationKey"]
+- !private ["C10WesternOil11AppDelegate", "UIUserNotificationSettings"]
+- !private ["C10WesternOil11AppDelegate", "UIUserNotificationType"]
 - ["C10WesternOil11AppDelegate", "UIWindow"]
+- !private ["C10WesternOil11AppDelegate", "Void"]
+- ["C10WesternOil11AppDelegate", "application"]
+- ["C10WesternOil11AppDelegate", "applicationDidBecomeActive"]
+- ["C10WesternOil11AppDelegate", "applicationDidEnterBackground"]
+- ["C10WesternOil11AppDelegate", "applicationDidFinishLaunching"]
+- ["C10WesternOil11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C10WesternOil11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C10WesternOil11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C10WesternOil11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C10WesternOil11AppDelegate", "applicationSignificantTimeChange"]
+- ["C10WesternOil11AppDelegate", "applicationWillEnterForeground"]
+- ["C10WesternOil11AppDelegate", "applicationWillResignActive"]
+- ["C10WesternOil11AppDelegate", "applicationWillTerminate"]
 - ["C10WesternOil11AppDelegate", "deinit"]
+- ["C10WesternOil11AppDelegate", "enteredRegion"]
 - ["C10WesternOil11AppDelegate", "init"]
+- ["C10WesternOil11AppDelegate", "locationManager"]
+- ["C10WesternOil11AppDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["C10WesternOil11AppDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["C10WesternOil11AppDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- ["C10WesternOil11AppDelegate", "nest71Region"]
 - !private ["C10WesternOil11AppDelegate", "print"]
+- ["C10WesternOil11AppDelegate", "window"]
+- !private ["PSs23ArrayLiteralConvertible", "Alert"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["OSC21CLAuthorizationStatus", "AuthorizedAlways"]
+- ["OSC21CLAuthorizationStatus", "Denied"]
+- ["CSo14CLBeaconRegion", "init"]
+- !private ["CSo17CLLocationManager", "delegate"]
+- ["CSo17CLLocationManager", "init"]
+- !private ["CSo17CLLocationManager", "requestAlwaysAuthorization"]
+- !private ["CSo17CLLocationManager", "requestStateForRegion"]
+- !private ["CSo17CLLocationManager", "startMonitoringForRegion"]
+- !private ["CSo17CLLocationManager", "startRangingBeaconsInRegion"]
+- ["PSo25CLLocationManagerDelegate", "CLBeaconRegion"]
+- ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
+- ["PSo25CLLocationManagerDelegate", "NSUUID"]
+- !private ["PSo25CLLocationManagerDelegate", "Notifications"]
+- !private ["PSo25CLLocationManagerDelegate", "Pushbots"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertAction"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertActionStyle"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertController"]
+- !private ["PSo25CLLocationManagerDelegate", "UIAlertControllerStyle"]
+- !private ["PSo25CLLocationManagerDelegate", "UIUserNotificationSettings"]
+- !private ["PSo25CLLocationManagerDelegate", "UIUserNotificationType"]
+- ["PSo25CLLocationManagerDelegate", "application"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidBecomeActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidEnterBackground"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidFinishLaunching"]
+- ["PSo25CLLocationManagerDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo25CLLocationManagerDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo25CLLocationManagerDelegate", "applicationSignificantTimeChange"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillEnterForeground"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillResignActive"]
+- ["PSo25CLLocationManagerDelegate", "applicationWillTerminate"]
+- !private ["PSo25CLLocationManagerDelegate", "enteredRegion"]
+- ["PSo25CLLocationManagerDelegate", "locationManager"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo25CLLocationManagerDelegate", "nest71Region"]
+- !private ["PSo25CLLocationManagerDelegate", "print"]
+- ["PSo25CLLocationManagerDelegate", "window"]
+- ["PSo25CLLocationManagerDelegate", ""]
+- ["CSo8CLRegion", "init"]
+- ["OSC13CLRegionState", "Inside"]
+- ["OSC13CLRegionState", "Outside"]
+- ["OSC13CLRegionState", "Unknown"]
+- ["PSs11CVarArgType", "CLBeaconRegion"]
+- ["PSs11CVarArgType", "CLLocationManager"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "NSUUID"]
+- !private ["PSs11CVarArgType", "Notifications"]
+- !private ["PSs11CVarArgType", "Pushbots"]
+- !private ["PSs11CVarArgType", "UIAlertAction"]
+- !private ["PSs11CVarArgType", "UIAlertActionStyle"]
+- !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "UIAlertControllerStyle"]
+- !private ["PSs11CVarArgType", "UIUserNotificationSettings"]
+- !private ["PSs11CVarArgType", "UIUserNotificationType"]
+- !private ["PSs11CVarArgType", "addAction"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "applicationIconBadgeNumber"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- !private ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "enteredRegion"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "locationManager"]
+- ["PSs11CVarArgType", "locationManagerDidPauseLocationUpdates"]
+- ["PSs11CVarArgType", "locationManagerDidResumeLocationUpdates"]
+- ["PSs11CVarArgType", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSs11CVarArgType", "nest71Region"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "receivedPush"]
+- !private ["PSs11CVarArgType", "registerOnPushbots"]
+- !private ["PSs11CVarArgType", "registerUserNotificationSettings"]
+- !private ["PSs11CVarArgType", "requestAlwaysAuthorization"]
+- !private ["PSs11CVarArgType", "requestStateForRegion"]
+- !private ["PSs11CVarArgType", "rootViewController"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "sharedInstanceWithAppId"]
+- !private ["PSs11CVarArgType", "show"]
+- !private ["PSs11CVarArgType", "startMonitoringForRegion"]
+- !private ["PSs11CVarArgType", "startRangingBeaconsInRegion"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "CLBeaconRegion"]
+- ["PSs23CustomStringConvertible", "CLLocationManager"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- ["PSs23CustomStringConvertible", "NSUUID"]
+- !private ["PSs23CustomStringConvertible", "Notifications"]
+- !private ["PSs23CustomStringConvertible", "Pushbots"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIAlertAction"]
+- !private ["PSs23CustomStringConvertible", "UIAlertActionStyle"]
+- !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "UIAlertControllerStyle"]
+- !private ["PSs23CustomStringConvertible", "UIUserNotificationSettings"]
+- !private ["PSs23CustomStringConvertible", "UIUserNotificationType"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAction"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "applicationIconBadgeNumber"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "enteredRegion"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "locationManager"]
+- ["PSs23CustomStringConvertible", "locationManagerDidPauseLocationUpdates"]
+- ["PSs23CustomStringConvertible", "locationManagerDidResumeLocationUpdates"]
+- ["PSs23CustomStringConvertible", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSs23CustomStringConvertible", "nest71Region"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "receivedPush"]
+- !private ["PSs23CustomStringConvertible", "registerOnPushbots"]
+- !private ["PSs23CustomStringConvertible", "registerUserNotificationSettings"]
+- !private ["PSs23CustomStringConvertible", "requestAlwaysAuthorization"]
+- !private ["PSs23CustomStringConvertible", "requestStateForRegion"]
+- !private ["PSs23CustomStringConvertible", "rootViewController"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "sharedInstanceWithAppId"]
+- !private ["PSs23CustomStringConvertible", "show"]
+- !private ["PSs23CustomStringConvertible", "startMonitoringForRegion"]
+- !private ["PSs23CustomStringConvertible", "startRangingBeaconsInRegion"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["VSs15DictionaryIndex", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "Alert"]
+- ["PSs9Equatable", "AuthorizedAlways"]
+- ["PSs9Equatable", "CLBeaconRegion"]
+- ["PSs9Equatable", "CLLocationManager"]
+- !private ["PSs9Equatable", "Default"]
+- ["PSs9Equatable", "Denied"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "Inside"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "NSUUID"]
+- !private ["PSs9Equatable", "Notifications"]
+- ["PSs9Equatable", "Outside"]
+- !private ["PSs9Equatable", "Pushbots"]
+- !private ["PSs9Equatable", "UIAlertAction"]
+- !private ["PSs9Equatable", "UIAlertActionStyle"]
+- !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "UIAlertControllerStyle"]
+- !private ["PSs9Equatable", "UIUserNotificationSettings"]
+- !private ["PSs9Equatable", "UIUserNotificationType"]
+- ["PSs9Equatable", "Unknown"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAction"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "applicationIconBadgeNumber"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- !private ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "enteredRegion"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "locationManager"]
+- ["PSs9Equatable", "locationManagerDidPauseLocationUpdates"]
+- ["PSs9Equatable", "locationManagerDidResumeLocationUpdates"]
+- ["PSs9Equatable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSs9Equatable", "nest71Region"]
+- !private ["PSs9Equatable", "presentViewController"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "receivedPush"]
+- !private ["PSs9Equatable", "registerOnPushbots"]
+- !private ["PSs9Equatable", "registerUserNotificationSettings"]
+- !private ["PSs9Equatable", "requestAlwaysAuthorization"]
+- !private ["PSs9Equatable", "requestStateForRegion"]
+- !private ["PSs9Equatable", "rootViewController"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "sharedInstanceWithAppId"]
+- !private ["PSs9Equatable", "show"]
+- !private ["PSs9Equatable", "startMonitoringForRegion"]
+- !private ["PSs9Equatable", "startRangingBeaconsInRegion"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Alert"]
+- ["PSs8Hashable", "AuthorizedAlways"]
+- ["PSs8Hashable", "CLBeaconRegion"]
+- ["PSs8Hashable", "CLLocationManager"]
+- !private ["PSs8Hashable", "Default"]
+- ["PSs8Hashable", "Denied"]
+- ["PSs8Hashable", "Inside"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "NSUUID"]
+- !private ["PSs8Hashable", "Notifications"]
+- ["PSs8Hashable", "Outside"]
+- !private ["PSs8Hashable", "Pushbots"]
+- !private ["PSs8Hashable", "UIAlertAction"]
+- !private ["PSs8Hashable", "UIAlertActionStyle"]
+- !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "UIAlertControllerStyle"]
+- !private ["PSs8Hashable", "UIUserNotificationSettings"]
+- !private ["PSs8Hashable", "UIUserNotificationType"]
+- ["PSs8Hashable", "Unknown"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAction"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "applicationIconBadgeNumber"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- !private ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "enteredRegion"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "locationManager"]
+- ["PSs8Hashable", "locationManagerDidPauseLocationUpdates"]
+- ["PSs8Hashable", "locationManagerDidResumeLocationUpdates"]
+- ["PSs8Hashable", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSs8Hashable", "nest71Region"]
+- !private ["PSs8Hashable", "presentViewController"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "receivedPush"]
+- !private ["PSs8Hashable", "registerOnPushbots"]
+- !private ["PSs8Hashable", "registerUserNotificationSettings"]
+- !private ["PSs8Hashable", "requestAlwaysAuthorization"]
+- !private ["PSs8Hashable", "requestStateForRegion"]
+- !private ["PSs8Hashable", "rootViewController"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "sharedInstanceWithAppId"]
+- !private ["PSs8Hashable", "show"]
+- !private ["PSs8Hashable", "startMonitoringForRegion"]
+- !private ["PSs8Hashable", "startRangingBeaconsInRegion"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSo8NSCoding", "addAction"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "rootViewController"]
+- !private ["PSo8NSCoding", "show"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "deinit"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo26NSExtensionRequestHandling", "addAction"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CLAuthorizationStatus"]
+- ["CSo8NSObject", "CLBeaconRegion"]
+- ["CSo8NSObject", "CLLocationManager"]
+- ["CSo8NSObject", "CLRegion"]
+- ["CSo8NSObject", "CLRegionState"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSUUID"]
+- !private ["CSo8NSObject", "Notifications"]
+- !private ["CSo8NSObject", "Pushbots"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIAlertAction"]
+- !private ["CSo8NSObject", "UIAlertActionStyle"]
+- !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIAlertControllerStyle"]
+- ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIUserNotificationSettings"]
+- !private ["CSo8NSObject", "UIUserNotificationType"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAction"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "applicationIconBadgeNumber"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "enteredRegion"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "locationManager"]
+- ["CSo8NSObject", "locationManagerDidPauseLocationUpdates"]
+- ["CSo8NSObject", "locationManagerDidResumeLocationUpdates"]
+- ["CSo8NSObject", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo8NSObject", "nest71Region"]
+- !private ["CSo8NSObject", "presentViewController"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "receivedPush"]
+- !private ["CSo8NSObject", "registerOnPushbots"]
+- !private ["CSo8NSObject", "registerUserNotificationSettings"]
+- !private ["CSo8NSObject", "requestAlwaysAuthorization"]
+- !private ["CSo8NSObject", "requestStateForRegion"]
+- !private ["CSo8NSObject", "rootViewController"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "sharedInstanceWithAppId"]
+- !private ["CSo8NSObject", "show"]
+- !private ["CSo8NSObject", "startMonitoringForRegion"]
+- !private ["CSo8NSObject", "startRangingBeaconsInRegion"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "window"]
+- ["PSo16NSObjectProtocol", "CLBeaconRegion"]
+- ["PSo16NSObjectProtocol", "CLLocationManager"]
+- ["PSo16NSObjectProtocol", "NSUUID"]
+- !private ["PSo16NSObjectProtocol", "Notifications"]
+- !private ["PSo16NSObjectProtocol", "Pushbots"]
+- !private ["PSo16NSObjectProtocol", "UIAlertAction"]
+- !private ["PSo16NSObjectProtocol", "UIAlertActionStyle"]
+- !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIAlertControllerStyle"]
+- !private ["PSo16NSObjectProtocol", "UIUserNotificationSettings"]
+- !private ["PSo16NSObjectProtocol", "UIUserNotificationType"]
+- !private ["PSo16NSObjectProtocol", "addAction"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "applicationIconBadgeNumber"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "enteredRegion"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "locationManager"]
+- ["PSo16NSObjectProtocol", "locationManagerDidPauseLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerDidResumeLocationUpdates"]
+- ["PSo16NSObjectProtocol", "locationManagerShouldDisplayHeadingCalibration"]
+- ["PSo16NSObjectProtocol", "nest71Region"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "receivedPush"]
+- !private ["PSo16NSObjectProtocol", "registerOnPushbots"]
+- !private ["PSo16NSObjectProtocol", "registerUserNotificationSettings"]
+- !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
+- !private ["PSo16NSObjectProtocol", "requestStateForRegion"]
+- !private ["PSo16NSObjectProtocol", "rootViewController"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "sharedInstanceWithAppId"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo16NSObjectProtocol", "startMonitoringForRegion"]
+- !private ["PSo16NSObjectProtocol", "startRangingBeaconsInRegion"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- ["CSo6NSUUID", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["C10WesternOil13Notifications", "display"]
+- !private ["PSs13OptionSetType", "Alert"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["CSo8Pushbots", "receivedPush"]
+- !private ["CSo8Pushbots", "registerOnPushbots"]
+- !private ["CSo8Pushbots", "sharedInstance"]
+- !private ["CSo8Pushbots", "sharedInstanceWithAppId"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs16RawRepresentable", "Alert"]
+- ["PSs16RawRepresentable", "AuthorizedAlways"]
+- !private ["PSs16RawRepresentable", "Default"]
+- ["PSs16RawRepresentable", "Denied"]
+- ["PSs16RawRepresentable", "Inside"]
+- ["PSs16RawRepresentable", "Outside"]
+- ["PSs16RawRepresentable", "Unknown"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs14SetAlgebraType", "Alert"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "rootViewController"]
+- !private ["PSo29UIAccessibilityIdentification", "show"]
+- !private ["CSo13UIAlertAction", "init"]
+- !private ["OSC18UIAlertActionStyle", "Default"]
+- !private ["CSo17UIAlertController", "addAction"]
+- !private ["CSo17UIAlertController", "init"]
+- !private ["OSC22UIAlertControllerStyle", "Alert"]
+- !private ["CSo11UIAlertView", "init"]
+- !private ["CSo11UIAlertView", "show"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "rootViewController"]
+- !private ["PSo12UIAppearance", "show"]
+- !private ["PSo21UIAppearanceContainer", "addAction"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIAppearanceContainer", "show"]
+- !private ["CSo13UIApplication", "applicationIconBadgeNumber"]
+- !private ["CSo13UIApplication", "registerUserNotificationSettings"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- ["PSo21UIApplicationDelegate", "CLBeaconRegion"]
+- ["PSo21UIApplicationDelegate", "CLLocationManager"]
+- ["PSo21UIApplicationDelegate", "NSUUID"]
+- !private ["PSo21UIApplicationDelegate", "Notifications"]
+- !private ["PSo21UIApplicationDelegate", "Pushbots"]
+- !private ["PSo21UIApplicationDelegate", "UIAlertAction"]
+- !private ["PSo21UIApplicationDelegate", "UIAlertActionStyle"]
+- !private ["PSo21UIApplicationDelegate", "UIAlertController"]
+- !private ["PSo21UIApplicationDelegate", "UIAlertControllerStyle"]
+- !private ["PSo21UIApplicationDelegate", "UIUserNotificationSettings"]
+- !private ["PSo21UIApplicationDelegate", "UIUserNotificationType"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "enteredRegion"]
+- ["PSo21UIApplicationDelegate", "locationManager"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidPauseLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerDidResumeLocationUpdates"]
+- ["PSo21UIApplicationDelegate", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["PSo21UIApplicationDelegate", "nest71Region"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo18UIContentContainer", "addAction"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "rootViewController"]
+- !private ["PSo17UICoordinateSpace", "show"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "rootViewController"]
+- !private ["PSo13UIDynamicItem", "show"]
+- !private ["PSo18UIFocusEnvironment", "addAction"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "rootViewController"]
+- !private ["PSo18UIFocusEnvironment", "show"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CLAuthorizationStatus"]
+- ["CSo11UIResponder", "CLBeaconRegion"]
+- ["CSo11UIResponder", "CLLocationManager"]
+- ["CSo11UIResponder", "CLRegion"]
+- ["CSo11UIResponder", "CLRegionState"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSUUID"]
+- !private ["CSo11UIResponder", "Notifications"]
+- !private ["CSo11UIResponder", "Pushbots"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIAlertAction"]
+- !private ["CSo11UIResponder", "UIAlertActionStyle"]
+- !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIAlertControllerStyle"]
+- ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "UIUserNotificationSettings"]
+- !private ["CSo11UIResponder", "UIUserNotificationType"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addAction"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "applicationIconBadgeNumber"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "enteredRegion"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "locationManager"]
+- ["CSo11UIResponder", "locationManagerDidPauseLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerDidResumeLocationUpdates"]
+- ["CSo11UIResponder", "locationManagerShouldDisplayHeadingCalibration"]
+- ["CSo11UIResponder", "nest71Region"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "registerUserNotificationSettings"]
+- !private ["CSo11UIResponder", "rootViewController"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["CSo11UIResponder", "show"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo16UIStateRestoring", "addAction"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "addAction"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "rootViewController"]
+- !private ["PSo18UITraitEnvironment", "show"]
+- !private ["CSo26UIUserNotificationSettings", "init"]
+- !private ["VSC22UIUserNotificationType", "Alert"]
+- !private ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "rootViewController"]
+- !private ["CSo6UIView", "show"]
+- !private ["CSo16UIViewController", "addAction"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo8UIWindow", "rootViewController"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "rootViewController"]
+- !private ["PSs12_Reflectable", "show"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
 depends-nominal:
+- "PSs9AnyObject"
 - "C10WesternOil11AppDelegate"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "OSC21CLAuthorizationStatus"
+- "CSo14CLBeaconRegion"
+- "CSo17CLLocationManager"
+- "PSo25CLLocationManagerDelegate"
+- "CSo8CLRegion"
+- "OSC13CLRegionState"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo6NSUUID"
+- "PSs21NilLiteralConvertible"
+- !private "C10WesternOil13Notifications"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "CSo8Pushbots"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo13UIAlertAction"
+- !private "OSC18UIAlertActionStyle"
+- !private "CSo17UIAlertController"
+- !private "OSC22UIAlertControllerStyle"
+- !private "CSo11UIAlertView"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo21UIApplicationDelegate"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo26UIUserNotificationSettings"
+- !private "VSC22UIUserNotificationType"
+- !private "CSo6UIView"
+- !private "CSo16UIViewController"
+- !private "CSo8UIWindow"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
 depends-dynamic-lookup:
+- !private "objectForKey"
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
-- "/Users/brandonwilkerson/Desktop/WesternOil 2/WesternOil-Bridging-Header.h"
-- "/Users/brandonwilkerson/Desktop/WesternOil 2/./Pushbots.framework/Headers/Pushbots.h"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Users/brandonwilkerson/Desktop/Western_oil/WesternOil-Bridging-Header.h"
+- "/Users/brandonwilkerson/Desktop/Western_oil/./Pushbots.framework/Headers/Pushbots.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
-interface-hash: "b0fbc3b0312798a9ae43726184c9c763"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "39cdf063074a18ec53bb194b9d8e2059"
