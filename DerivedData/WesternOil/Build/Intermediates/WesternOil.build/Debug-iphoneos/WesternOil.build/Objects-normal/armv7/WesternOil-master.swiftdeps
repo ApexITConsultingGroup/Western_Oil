@@ -1,6 +1,7 @@
-version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "643f2922455922fdfa7c9c59cd7e0ac7"
-build_time: [510853631, 471802000]
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "1069d180fc4f76e262af462a4cd9ab67"
+build_time: [512233113, 415670000]
 inputs:
-  "/Users/brandonwilkerson/Desktop/WesternOil/WesternOil/AppDelegate.swift": [510089050, 0]
-  "/Users/brandonwilkerson/Desktop/WesternOil/WesternOil/ViewController.swift": [510693394, 0]
+  "/Users/brandonwilkerson/Desktop/Western_oil/WesternOil/Notifications.swift": [511641617, 0]
+  "/Users/brandonwilkerson/Desktop/Western_oil/WesternOil/ViewController.swift": [512231888, 0]
+  "/Users/brandonwilkerson/Desktop/Western_oil/WesternOil/AppDelegate.swift": [512233073, 0]

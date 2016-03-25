@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -18,29 +18,93 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U3a-0B-tZR">
-                                <rect key="frame" x="0.0" y="0.0" width="377" height="609"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="U3a-0B-tZR">
+                                <rect key="frame" x="0.0" y="0.0" width="377" height="548"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bSx-IQ-pnj">
-                                        <rect key="frame" x="0.0" y="0.0" width="377" height="609"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bSx-IQ-pnj">
+                                        <rect key="frame" x="0.0" y="0.0" width="377" height="548"/>
                                         <subviews>
-                                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pp-Ta-BWd">
-                                                <rect key="frame" x="0.0" y="0.0" width="377" height="609"/>
+                                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5pp-Ta-BWd">
+                                                <rect key="frame" x="0.0" y="0.0" width="377" height="548"/>
                                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                             </webView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Io1-3n-2LZ">
+                                <rect key="frame" x="2" y="615" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem id="Ppa-hG-8VA"/>
+                                    <barButtonItem style="plain" id="81q-bz-Org">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bip-uS-dlE">
+                                            <rect key="frame" x="18" y="7" width="96" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <state key="normal" title="&lt;"/>
+                                            <connections>
+                                                <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hjk-gq-Dey"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="iuk-Qc-dWo">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6jl-Y7-0ME">
+                                            <rect key="frame" x="124" y="7" width="71" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                            <state key="normal" title="&gt;"/>
+                                            <connections>
+                                                <action selector="doForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yFe-iW-FdD"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="7" style="plain" systemItem="fixedSpace" id="aBB-D1-pXz"/>
+                                    <barButtonItem style="plain" id="qBw-hd-5pu">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pi4-8W-nbL">
+                                            <rect key="frame" x="212" y="7" width="86" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <state key="normal" title="↺"/>
+                                            <connections>
+                                                <action selector="doReload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LjT-4T-pRS"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="V7K-5Y-1ov">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ySE-2s-hM8">
+                                            <rect key="frame" x="308" y="7" width="53" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                            <state key="normal" title="X"/>
+                                            <connections>
+                                                <action selector="doCancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7jE-nc-23j"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES"/>
+                        </accessibility>
                         <constraints>
-                            <constraint firstItem="U3a-0B-tZR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="FCB-xt-mVr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U3a-0B-tZR" secondAttribute="trailing" constant="-18" id="170-1Y-fy9"/>
+                            <constraint firstItem="U3a-0B-tZR" firstAttribute="trailing" secondItem="Io1-3n-2LZ" secondAttribute="trailing" id="83v-pH-bLW"/>
+                            <constraint firstItem="U3a-0B-tZR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Lb2-FH-Qx7"/>
+                            <constraint firstItem="Io1-3n-2LZ" firstAttribute="top" secondItem="U3a-0B-tZR" secondAttribute="bottom" constant="23" id="VES-46-1mK"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Io1-3n-2LZ" secondAttribute="bottom" constant="8" id="WqA-SX-Mmc"/>
+                            <constraint firstItem="U3a-0B-tZR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="j3z-k0-5eM"/>
+                            <constraint firstItem="Io1-3n-2LZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-14" id="s94-uJ-qmp"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="webView" destination="5pp-Ta-BWd" id="OgU-Mz-bId"/>
+                        <outlet property="backButton" destination="Io1-3n-2LZ" id="fBu-l6-U2w"/>
+                        <outlet property="cancelButton" destination="ySE-2s-hM8" id="2ud-Yk-ag3"/>
+                        <outlet property="forwardButton" destination="6jl-Y7-0ME" id="K4X-1S-70g"/>
+                        <outlet property="refreshButton" destination="pi4-8W-nbL" id="tpB-IM-zW9"/>
+                        <outlet property="webView" destination="5pp-Ta-BWd" id="09I-9D-4lB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -48,4 +112,5 @@
             <point key="canvasLocation" x="564.5" y="379.5"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.0" blue="0.064798492680551156" alpha="1" colorSpace="calibratedRGB"/>
 </document>
