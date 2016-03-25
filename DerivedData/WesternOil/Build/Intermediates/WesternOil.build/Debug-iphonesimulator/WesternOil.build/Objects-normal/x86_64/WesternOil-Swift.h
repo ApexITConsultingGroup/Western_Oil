@@ -120,25 +120,32 @@ SWIFT_CLASS("_TtC10WesternOil11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CLLocationManager;
 @class UIWebView;
-@class UIToolbar;
 @class UIButton;
+@class CLBeacon;
+@class CLBeaconRegion;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10WesternOil14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, strong) CLLocationManager * _Null_unspecified locationManager;
 @property (nonatomic, strong) IBOutlet UIWebView * _Null_unspecified webView;
-@property (nonatomic, strong) IBOutlet UIToolbar * _Null_unspecified backButton;
-- (IBAction)goBack:(id _Nonnull)sender;
+- (IBAction)backButton:(id _Nonnull)sender;
 - (IBAction)doReload:(id _Nonnull)sender;
 - (IBAction)doCancel:(id _Nonnull)sender;
 - (IBAction)doForward:(id _Nonnull)sender;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified forwardButton;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified cancelButton;
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified refreshButton;
+@property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified backButton;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)startScanning;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didRangeBeacons:(NSArray<CLBeacon *> * _Nonnull)beacons inRegion:(CLBeaconRegion * _Nonnull)region;
+- (void)updateDistance:(CLProximity)distance;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

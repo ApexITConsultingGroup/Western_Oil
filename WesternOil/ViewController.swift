@@ -12,12 +12,18 @@ import CoreLocation
 
 
 
+
+
 class ViewController: UIViewController, CLLocationManagerDelegate {
-    @IBOutlet var webView: UIWebView!
+    
+    
+    
+    
     
     
     
     var locationManager: CLLocationManager!
+    @IBOutlet var webView: UIWebView!
     
     
     

@@ -104,7 +104,7 @@
                         <outlet property="cancelButton" destination="ySE-2s-hM8" id="2ud-Yk-ag3"/>
                         <outlet property="forwardButton" destination="6jl-Y7-0ME" id="K4X-1S-70g"/>
                         <outlet property="refreshButton" destination="pi4-8W-nbL" id="tpB-IM-zW9"/>
-                        <outlet property="webView" destination="5pp-Ta-BWd" id="09I-9D-4lB"/>
+                        <outlet property="webView" destination="5pp-Ta-BWd" id="br4-Fj-YTn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
