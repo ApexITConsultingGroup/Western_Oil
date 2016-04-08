@@ -120,8 +120,8 @@ SWIFT_CLASS("_TtC10WesternOil11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIWebView;
 @class CLLocationManager;
+@class UIWebView;
 @class UIButton;
 @class CLBeacon;
 @class CLBeaconRegion;
@@ -130,8 +130,8 @@ SWIFT_CLASS("_TtC10WesternOil11AppDelegate")
 
 SWIFT_CLASS("_TtC10WesternOil14ViewController")
 @interface ViewController : UIViewController <CLLocationManagerDelegate>
-@property (nonatomic, strong) IBOutlet UIWebView * _Null_unspecified webView;
 @property (nonatomic, strong) CLLocationManager * _Null_unspecified locationManager;
+@property (nonatomic, strong) IBOutlet UIWebView * _Null_unspecified webView;
 - (IBAction)backButton:(id _Nonnull)sender;
 - (IBAction)doReload:(id _Nonnull)sender;
 - (IBAction)doCancel:(id _Nonnull)sender;

@@ -134,7 +134,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             switch distance {
                 
             case.Unknown:
-                Notifications.display("display text")
+                Notifications.display("Unknown Proximity")
                 //self.view.backgroundColor = UIColor.grayColor()
                 
             case.Far:
