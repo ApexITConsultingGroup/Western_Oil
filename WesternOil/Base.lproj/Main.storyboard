@@ -58,7 +58,7 @@
                                                             </barButtonItem>
                                                             <barButtonItem style="plain" id="iuk-Qc-dWo">
                                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6jl-Y7-0ME">
-                                                                    <rect key="frame" x="95" y="7" width="82" height="30"/>
+                                                                    <rect key="frame" x="95" y="7" width="41" height="30"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                                                     <state key="normal" title="&gt;"/>
@@ -67,10 +67,10 @@
                                                                     </connections>
                                                                 </button>
                                                             </barButtonItem>
-                                                            <barButtonItem width="70" style="plain" systemItem="fixedSpace" id="aBB-D1-pXz"/>
+                                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="tam-ui-L6Q"/>
                                                             <barButtonItem style="plain" id="qBw-hd-5pu">
                                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pi4-8W-nbL">
-                                                                    <rect key="frame" x="257" y="7" width="80" height="30"/>
+                                                                    <rect key="frame" x="322" y="7" width="29" height="30"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                                     <state key="normal" title="↺"/>
@@ -81,7 +81,7 @@
                                                             </barButtonItem>
                                                             <barButtonItem style="plain" id="V7K-5Y-1ov">
                                                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ySE-2s-hM8">
-                                                                    <rect key="frame" x="347" y="7" width="60" height="30"/>
+                                                                    <rect key="frame" x="361" y="7" width="26" height="30"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                                     <state key="normal" title="X"/>
